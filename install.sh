@@ -2,7 +2,7 @@
 
 cd ~
 chsh -s $(which zsh)
-git clone https://github.com/alistairstead/dotfiles
+git clone https://github.com/mahdihastie/dotfiles
 cd ~/dotfiles
 git submodule update --init --recursive
 install/bootstrap.sh
