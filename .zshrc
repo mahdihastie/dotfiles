@@ -15,3 +15,5 @@ if [ -d $HOME/dotfiles/rc.d ]; then
 fi
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.zshrc
